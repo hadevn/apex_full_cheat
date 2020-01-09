@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+*.db
+*.vmp
+*.se
+*.iobj
+*.sef
+*.ipdb
+*.map
+*.pdb
+*.tlog

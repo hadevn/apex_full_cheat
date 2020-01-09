@@ -1,0 +1,64 @@
+﻿  ACbypass.cpp
+  ActorMgr.cpp
+  Cheat.cpp
+I:\Apex_Cheat_Recode\SDK\SDK\Cheat.cpp(582,17): warning C4244: “初始化”: 从“vec_t”转换到“int”，可能丢失数据
+I:\Apex_Cheat_Recode\SDK\SDK\Cheat.cpp(608,85): warning C4244: “参数”: 从“int”转换到“vec_t”，可能丢失数据
+I:\Apex_Cheat_Recode\SDK\SDK\Cheat.cpp(608,80): warning C4244: “参数”: 从“int”转换到“vec_t”，可能丢失数据
+I:\Apex_Cheat_Recode\SDK\SDK\Cheat.cpp(650,80): warning C4244: “参数”: 从“int”转换到“vec_t”，可能丢失数据
+I:\Apex_Cheat_Recode\SDK\SDK\Cheat.cpp(670,80): warning C4244: “参数”: 从“int”转换到“vec_t”，可能丢失数据
+  Common.cpp
+I:\Apex_Cheat_Recode\SDK\SDK\Common.cpp(18,31): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+I:\Apex_Cheat_Recode\SDK\SDK\Common.cpp(46,31): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  D3dDraw.cpp
+  Entity.cpp
+  EntityClient.cpp
+I:\Apex_Cheat_Recode\SDK\SDK\EntityClient.cpp(86,11): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+I:\Apex_Cheat_Recode\SDK\SDK\EntityClient.cpp(87,11): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+I:\Apex_Cheat_Recode\SDK\SDK\EntityClient.cpp(88,42): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+I:\Apex_Cheat_Recode\SDK\SDK\EntityClient.cpp(89,43): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+  Hooks.cpp
+I:\Apex_Cheat_Recode\SDK\SDK\Hooks.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+I:\Apex_Cheat_Recode\SDK\SDK\Hooks.cpp(535,15): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+I:\Apex_Cheat_Recode\SDK\SDK\Hooks.cpp(551,39): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+I:\Apex_Cheat_Recode\SDK\SDK\Hooks.cpp(654,15): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+I:\Apex_Cheat_Recode\SDK\SDK\Hooks.cpp(658,15): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+I:\Apex_Cheat_Recode\SDK\SDK\Hooks.cpp(727,102): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+I:\Apex_Cheat_Recode\SDK\SDK\Hooks.cpp(727,95): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+I:\Apex_Cheat_Recode\SDK\SDK\Hooks.cpp(727,88): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+I:\Apex_Cheat_Recode\SDK\SDK\Hooks.cpp(727,81): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+I:\Apex_Cheat_Recode\SDK\SDK\Hooks.cpp(754,68): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+I:\Apex_Cheat_Recode\SDK\SDK\Hooks.cpp(759,74): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+  IClientEntityList.cpp
+  imgui.cpp
+  imgui_draw.cpp
+  imgui_impl_dx11.cpp
+I:\Apex_Cheat_Recode\SDK\SDK\imgui\imgui_impl_dx11.cpp(36,10): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+  Main.cpp
+  Vector2D.cpp
+  Vector4D.cpp
+  VMatrix.cpp
+  Misc.cpp
+I:\Apex_Cheat_Recode\SDK\SDK\Misc.cpp(425,53): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+I:\Apex_Cheat_Recode\SDK\SDK\Misc.cpp(563,36): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  NetVars.cpp
+I:\Apex_Cheat_Recode\SDK\SDK\NetVars.cpp(60,1): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(549): message : 参见“stricmp”的声明
+I:\Apex_Cheat_Recode\SDK\SDK\NetVars.cpp(82,1): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(549): message : 参见“stricmp”的声明
+  Offset.cpp
+  Rage.cpp
+  正在编译...
+  SDK.cpp
+  ArrayBase.cpp
+  rw_reg.cpp
+  Utils.cpp
+  buffer.c
+  hde32.c
+  hde64.c
+  hook.c
+  trampoline.c
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 2352 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  SDK.vcxproj -> I:\Apex_Cheat_Recode\SDK\x64\Release\SDK.dll

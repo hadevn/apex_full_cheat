@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\utils">
+      <UniqueIdentifier>{3cfc5b6e-a888-4670-8c20-ecd37cb5763d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\math">
+      <UniqueIdentifier>{d2e18f1c-f132-4e4d-83a1-1006963af684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\SDK">
+      <UniqueIdentifier>{d30fdc7f-3bd2-430c-a0eb-6fa3b846bb99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\math">
+      <UniqueIdentifier>{bd5cbde6-849e-4571-8860-afc1db8af040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\SDK">
+      <UniqueIdentifier>{c19ee681-7a41-4810-b3f0-4019181bef98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\utils">
+      <UniqueIdentifier>{550e1158-efaa-43f0-9926-855c7c40ecb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mhook">
+      <UniqueIdentifier>{d7aaf1cf-f6b6-40e2-ba1a-f424d5c537eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{5abf7428-b1a0-472a-969b-6d7c93a3f7c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\SafeEngine">
+      <UniqueIdentifier>{ca7c830e-6bb2-4025-a81d-ba9357a34dc6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVars.cpp">
+      <Filter>源文件\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="math\Vector2D.cpp">
+      <Filter>源文件\math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\Vector4D.cpp">
+      <Filter>源文件\math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\VMatrix.cpp">
+      <Filter>源文件\math</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\ArrayBase.cpp">
+      <Filter>源文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\rw_reg.cpp">
+      <Filter>源文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\Utils.cpp">
+      <Filter>源文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\buffer.c">
+      <Filter>mhook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\hook.c">
+      <Filter>mhook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\trampoline.c">
+      <Filter>mhook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\HDE\hde32.c">
+      <Filter>mhook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\HDE\hde64.c">
+      <Filter>mhook</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK.cpp">
+      <Filter>源文件\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Offset.cpp">
+      <Filter>源文件\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="IClientEntityList.cpp">
+      <Filter>源文件\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityClient.cpp">
+      <Filter>源文件\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>源文件\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="D3dDraw.cpp">
+      <Filter>源文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Rage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorMgr.cpp">
+      <Filter>源文件\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>源文件\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ACbypass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils\rw_reg.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\StringCovert.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Utils.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\ArrayBase.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVars.h">
+      <Filter>头文件\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="math\QAngle.hpp">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Vector.hpp">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Vector2D.hpp">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Vector4D.hpp">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\VMatrix.hpp">
+      <Filter>头文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\buffer.h">
+      <Filter>mhook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\trampoline.h">
+      <Filter>mhook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\HDE\hde32.h">
+      <Filter>mhook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\HDE\hde64.h">
+      <Filter>mhook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\HDE\pstdint.h">
+      <Filter>mhook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\HDE\table32.h">
+      <Filter>mhook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\HDE\table64.h">
+      <Filter>mhook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\include\MinHook.h">
+      <Filter>mhook</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalVar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientEntityList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_rect_pack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorMgr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="D3dDraw.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>头文件\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Vars.h">
+      <Filter>头文件\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Offset.h">
+      <Filter>头文件\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityClient.h">
+      <Filter>头文件\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Rage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SESDK64.h">
+      <Filter>头文件\SafeEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp">
+      <Filter>头文件\SafeEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>头文件\SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
